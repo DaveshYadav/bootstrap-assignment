@@ -1,0 +1,50 @@
+<svg width="900" height="700" viewBox="0 0 900 700" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Modern portfolio illustration</title>
+  <desc id="desc">A stylish illustration of a student working on a laptop with code and design elements.</desc>
+  <defs>
+    <linearGradient id="bg" x1="120" y1="80" x2="770" y2="620" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E9E4FF"/>
+      <stop offset="1" stop-color="#D8EEFF"/>
+    </linearGradient>
+    <linearGradient id="card" x1="210" y1="145" x2="685" y2="575" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#F8FAFF"/>
+    </linearGradient>
+    <linearGradient id="screen" x1="500" y1="260" x2="700" y2="430" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#74B0FF"/>
+      <stop offset="1" stop-color="#4F7CF3"/>
+    </linearGradient>
+    <filter id="shadow" x="150" y="110" width="600" height="520" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="20" stdDeviation="24" flood-color="#7D8BBA" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+
+  <rect width="900" height="700" rx="36" fill="url(#bg)"/>
+  <circle cx="130" cy="120" r="54" fill="#FFFFFF" fill-opacity="0.6"/>
+  <circle cx="790" cy="100" r="34" fill="#FFFFFF" fill-opacity="0.5"/>
+  <circle cx="760" cy="610" r="48" fill="#FFFFFF" fill-opacity="0.45"/>
+
+  <g filter="url(#shadow)">
+    <rect x="170" y="130" width="560" height="450" rx="28" fill="url(#card)"/>
+  </g>
+
+  <circle cx="325" cy="280" r="82" fill="#9CC4FF"/>
+  <rect x="250" y="375" width="150" height="26" rx="13" fill="#BCC7D6"/>
+  <rect x="220" y="420" width="210" height="24" rx="12" fill="#D0D7E2"/>
+  <rect x="245" y="465" width="160" height="24" rx="12" fill="#E0E6EF"/>
+
+  <rect x="475" y="200" width="235" height="165" rx="22" fill="#1F2A44"/>
+  <rect x="494" y="219" width="197" height="127" rx="16" fill="url(#screen)"/>
+  <rect x="535" y="382" width="115" height="18" rx="9" fill="#8FA1B8"/>
+  <rect x="505" y="435" width="165" height="22" rx="11" fill="#C7D2E1"/>
+  <rect x="505" y="472" width="210" height="22" rx="11" fill="#D8E0EB"/>
+  <rect x="505" y="509" width="135" height="22" rx="11" fill="#E2E8F0"/>
+
+  <g opacity="0.96">
+    <rect x="125" y="560" width="150" height="16" rx="8" fill="#FFFFFF" fill-opacity="0.55"/>
+    <rect x="625" y="145" width="95" height="14" rx="7" fill="#FFFFFF" fill-opacity="0.48"/>
+    <path d="M565 254H586L598 274L618 240L641 289L655 264H679" stroke="#DDEBFF" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="605" cy="305" r="10" fill="#DDEBFF"/>
+    <circle cx="642" cy="261" r="10" fill="#DDEBFF"/>
+  </g>
+</svg>
